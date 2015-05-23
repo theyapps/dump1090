@@ -88,7 +88,7 @@
         if (!p) return;
         var html = 'ICAO: '+p.hex+'<br>';
         if (p.flight.length) {
-            html += '<b>'+p.flight+'</b><br>';
+            html += '<b><a href="https://www.google.com/search?q='+p.flight+'" target="_blank">'+p.flight+'</a></b><br>';
         }
         html += 'Altitude: '+p.altitude+' feet<br>';
         html += 'Speed: '+p.speed+' knots<br>';
